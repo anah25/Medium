@@ -1,0 +1,6 @@
+name: d2l
+dependencies:
+- python=3.6
+- pip:
+  - matplotlib==2.2.2
+  - pandas==0.23.4

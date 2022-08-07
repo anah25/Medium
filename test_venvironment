@@ -1,0 +1,20 @@
+conda create -n test_environment
+
+## Package Plan ##
+
+  environment location: C:\Users\dobre\anaconda3\envs\test_environment
+# To activate this environment, use
+#
+#     $ conda activate test_environment
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+### Create an environment from a file
+- conda env create -f environment.yml
+### List all environments
+conda env list
+
+### Remove environments
+conda env remove -n <my_env_name>
